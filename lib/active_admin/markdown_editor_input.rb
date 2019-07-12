@@ -1,5 +1,7 @@
+require 'active_admin/markdown_editor/engine'
+
 module ActiveAdmin
-  class MarkdownEditor < Formtastic::Inputs::StringInput
+  class MarkdownEditorInput < Formtastic::Inputs::StringInput
     def input_html_options
       super.merge(class: 'simple-mde-input')
     end
