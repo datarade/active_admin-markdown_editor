@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors = 'Datarade'
   s.files = [
     'lib/active_admin-markdown_editor.rb',
-    'lib/active_admin/markdown_editor_input.rb',
+    'lib/active_admin/formtastic/inputs/markdown_editor_input.rb',
     'lib/active_admin/markdown_editor/engine.rb',
     'lib/active_admin/markdown_editor/version.rb',
     'app/assets/javascripts/active_admin/markdown_editor.js',
