@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
     'lib/active_admin/markdown_editor_input.rb',
     'lib/active_admin/markdown_editor/engine.rb',
     'lib/active_admin/markdown_editor/version.rb',
-    'assets/javascripts/active_admin/markdown_editor.js',
-    'assets/stylesheets/active_admin/markdown_editor.css'
+    'app/assets/javascripts/active_admin/markdown_editor.js',
+    'app/assets/stylesheets/active_admin/markdown_editor.css'
   ]
   s.require_paths = ['lib']
 
