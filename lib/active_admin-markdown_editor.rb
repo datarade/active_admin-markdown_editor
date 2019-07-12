@@ -1,1 +1,1 @@
-require 'active_admin/markdown_editor'
+require 'active_admin/markdown_editor_input'
