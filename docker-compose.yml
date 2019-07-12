@@ -1,0 +1,9 @@
+version: '3'
+services:
+  dev:
+    container_name: active_admin-markdown_editor
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
